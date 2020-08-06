@@ -11,50 +11,36 @@
     color: var(--color-text-in-primary);
 }
 
-#search-teachers .input-block {
-    position: relative;
-}
-
-#search-teachers .input-block + .input-block {
-    margin-top: 1.4rem;
-}
-
-#search-teachers .input-block label {
-    font-size: 1.4rem;
-}
-
-#search-teachers .input-block input {
-    width: 100%;
-    height: 5.6rem;
-    margin-top: 0.8rem;
-    padding: 0 1.6rem;
-
-    font: 1.6rem Archivo;
-
-    border: solid 1px var(--color-line-in-white);
-    border-radius: 0.8rem;
-
-    background-color: var(--color-input-background);
-
-    outline: 0;
-}
-
-#search-teachers .input-block:focus-within::after {
-    content: '';
-    width: calc(100% - 3.2rem);
-    height: 2px;
-    left: 1.6rem;
-    right: 1.6rem;
-    bottom: 0;
-
-    background-color: var(--color-secundary);
-
-    position: absolute;
-}   
-
 #page-teacher-list main {
     margin: 3.2rem auto;
     width: 90%;
+}
+
+#search-teachers button {
+    width: 100%;
+  height: 5.6rem;
+  margin-top: 3.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font: 700 1.6rem Archivo;
+  color: var(--color-button-text);
+  text-decoration: none;
+
+  background-color: var(--color-secundary);
+  
+  border: 0;
+  border-radius: 0.8rem;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+}
+      
+#search-teachers button:hover {
+    background-color: var(--color-secundary-dark);
 }
 
 @media (min-width: 700px) {
@@ -64,14 +50,15 @@
 
     #search-teachers {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         bottom: -28px;
         column-gap: 16px;
 
         position: absolute;
     }
 
-    #search-teachers .input-block + .input-block {
+    #search-teachers .input-block + .input-block,
+    #search-teachers .select-block + .select-block {
         margin-top: 0;
     }
 

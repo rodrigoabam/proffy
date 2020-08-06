@@ -1,0 +1,44 @@
+.select-block {
+  position: relative;
+}
+
+.select-block + .select-block {
+  margin-top: 1.4rem;
+}
+
+.select-block label {
+  font-size: 1.4rem;
+}
+
+.select-block select {
+  width: 100%;
+  height: 5.6rem;
+  margin-top: 0.8rem;
+  padding: 0 1.6rem;
+
+  font: 1.6rem Archivo;
+
+  border: solid 1px var(--color-line-in-white);
+  border-radius: 0.8rem;
+
+  background-color: var(--color-input-background);
+
+  outline: 0;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select-block:focus-within::after {
+  content: '';
+  width: calc(100% - 3.2rem);
+  height: 2px;
+  left: 1.6rem;
+  right: 1.6rem;
+  bottom: 0;
+
+  background-color: var(--color-secundary);
+
+  position: absolute;
+}   
