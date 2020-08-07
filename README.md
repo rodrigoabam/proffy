@@ -23,5 +23,7 @@ Já o aluno pode procurar um professor pelos mesmos itens que aquele professor �
 
  ## 🎥 Preview:
 
+ Obs.: Apenas uma demonstração de como ficou o layout da aplicação, todas as funcionalidades já foram aplicadas e estão funcionando.
+
 <img src="src/assets/images/preview1.gif">
 

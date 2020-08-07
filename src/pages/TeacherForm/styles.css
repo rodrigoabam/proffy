@@ -105,7 +105,7 @@
   color: var(--color-button-text);
   text-decoration: none;
 
-  background-color: var(--color-secundary);
+  background-color: var(--color-secondary);
   
   border: 0;
   border-radius: 0.8rem;
@@ -116,7 +116,7 @@
 }
 
 #page-teacher-form main footer button:hover {
-  background-color: var(--color-secundary-dark);
+  background-color: var(--color-secondary-dark);
 }
 
 @media(min-width: 700px) {

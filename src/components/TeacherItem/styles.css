@@ -84,7 +84,7 @@
     color: var(--color-button-text);
     text-decoration: none;
 
-    background-color: var(--color-secundary);
+    background-color: var(--color-secondary);
 
     cursor: pointer;
 
@@ -92,7 +92,7 @@
 }
 
 .teacher-item footer a:hover {
-    background-color: var(--color-secundary-dark);
+    background-color: var(--color-secondary-dark);
 }
 
 
