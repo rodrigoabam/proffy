@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     padding: 40,
-    backgroundColor: '#32264D'
+    backgroundColor: '#002855'
   },
   content: {
     flex: 1,
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins_400Regular',
     fontSize: 16,
     lineHeight: 26,
-    color: '#d4c2ff'
+    color: '#caf0f8'
   },
   okButton: {
     height: 58,
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
 
     borderRadius: 8,
 
-    backgroundColor: '#04d361',
+    backgroundColor: '#DF0209',
   },
   okButtonText: {
     fontSize: 16,

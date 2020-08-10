@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   },
   label: {
     fontFamily: 'Poppins_400Regular',
-    color: '#d4c2ff'
+    color: '#caf0f8'
   },
   input: {
     height: 54,
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
 
     borderRadius: 8,
 
-    backgroundColor: '#04d361'
+    backgroundColor: '#DF0209'
   },
   submitButtonText: {
     fontFamily: 'Archivo_700Bold',

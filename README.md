@@ -5,25 +5,39 @@
 É uma plataforma voltada para estudos EAD, onde existem dois tipos de usuários,
 alunos e professores. 
 <br>
-O professor pode se cadastrar listando as matérias das quais ele ministra, dias da semana que ministra as aulas, horários disponíveis e o valor/hora dessas aulas.
+O professor pode se cadastrar listando as matérias das quais ele ministra, dias da semana, horários e disponíveis e o valor/hora das aulas.
 <br>
-Já o aluno pode procurar um professor pelos mesmos itens que aquele professor é cadastra suas informações.
+Já o aluno pode procurar um professor pelos mesmos itens que o professor é cadastrado, além de poder favoritar os professores,
+mantendo uma lista de favoritos.
 
 </p>
 
  ---
 
-## 🤯 Aprendi sobre:
+## 🛠 Tecnologias utilizadas:
 - React;
+- React-native;
 - TypeScript;
-- Elementos e maneiras diferentes de utilizar o CSS;
-- Responsividade;
+- Expo;
+- Express;
 
  ---
 
- ## 🎥 Preview:
+ ## 💻 Telas da Aplicação Web:
 
- Obs.: Apenas uma demonstração de como ficou o layout da aplicação, todas as funcionalidades já foram aplicadas e estão funcionando.
+<div>
+  <img src="img-git/web-landing.png" width="180">
+</div>
+<div>
+  <img src="img-git/web-teacherlist.png" height="180">
+  <img src="img-git/web-teacherform.png" height="180">
+</div>
 
-<img src="web/src/assets/images/preview1.gif">
+ ## 📱 Telas da Aplicação Mobile:
 
+<div>
+  <img src="img-git/landing-page.png" width="160">
+  <img src="img-git/give-classes.png" width="160">
+  <img src="img-git/teacher-list.png" width="160">
+  <img src="img-git/favorited.png" width="160">
+</div>

@@ -3,12 +3,13 @@ import { View, Image, Text, Linking } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 import AsyncStorage from '@react-native-community/async-storage';
 
+import api from '../../services/api';
+
 import heartOutlineIcon from '../../assets/images/icons/heart-outline.png';
 import unFavorite from '../../assets/images/icons/unfavorite.png';
 import whatsappIcon from '../../assets/images/icons/whatsapp.png';
 
 import styles from './styles';
-import api from '../../services/api';
 
 export interface Teacher {
   id: number;
