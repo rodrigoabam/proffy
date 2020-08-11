@@ -26,18 +26,18 @@ mantendo uma lista de favoritos.
  ## 💻 Telas da Aplicação Web:
 
 <div>
-  <img src="img-git/web-landing.png" width="320">
+  <img src="web/src/assets/images/img-git/web-landing.png" width="320">
 </div>
 <div>
-  <img src="img-git/web-teacherlist.png" height="260">
-  <img src="img-git/web-teacherform.png" height="260">
+  <img src="web/src/assets/images/img-git/web-teacherlist.png" height="260">
+  <img src="web/src/assets/images/img-git/web-teacherform.png" height="260">
 </div>
 
  ## 📱 Telas da Aplicação Mobile:
 
 <div>
-  <img src="img-git/landing-page.png" width="160">
-  <img src="img-git/give-classes.png" width="160">
-  <img src="img-git/teacher-list.png" width="160">
-  <img src="img-git/favorited.png" width="160">
+  <img src="web/src/assets/images/img-git/landing-page.png" width="160">
+  <img src="web/src/assets/images/img-git/give-classes.png" width="160">
+  <img src="web/src/assets/images/img-git/teacher-list.png" width="160">
+  <img src="web/src/assets/images/img-git/favorited.png" width="160">
 </div>
